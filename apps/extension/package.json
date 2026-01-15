@@ -6,7 +6,8 @@
   "description": "Focus, calm & productivity with every new tab",
   "author": "zainzafar90@gmail.com",
   "scripts": {
-    "dev": "rm -rf .plasmo && rm -rf build && plasmo dev",
+    "dev": "rm -rf .plasmo && rm -rf build && plasmo dev & sleep 3 && npm run copy-sounds-dev",
+    "copy-sounds-dev": "while true; do if [ -d build/chrome-mv3-dev ]; then mkdir -p build/chrome-mv3-dev/sounds && cp -r public/sounds/* build/chrome-mv3-dev/sounds/ 2>/dev/null && break; fi; sleep 1; done",
     "build": "plasmo build",
     "postbuild": "mkdir -p build/chrome-mv3-dev/sounds && cp -r public/sounds/* build/chrome-mv3-dev/sounds/ 2>/dev/null || true",
     "build:all": "npm run build:firefox && npm run build:edge && npm run build:chrome && npm run build:opera && npm run build:safari",
