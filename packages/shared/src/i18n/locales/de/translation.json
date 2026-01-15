@@ -1,0 +1,569 @@
+{
+  "common": {
+    "home": "Startseite",
+    "pomodoro": "Pomodoro",
+    "soundscapes": "Klanglandschaften",
+    "breathing": "Atempod",
+    "settings": "Einstellungen",
+    "tasks": "Aufgaben",
+    "notes": "Notizen",
+    "site-blocker": "Seitenblocker",
+    "background": "Hintergrund",
+    "tab-stash": "Tab-Stash",
+    "bookmarks": "Lesezeichen",
+    "weather": "Wetter",
+    "clock": "Uhr",
+    "calendar": "Kalender",
+    "calendarData": {
+      "months": {
+        "short": {
+          "jan": "Jan",
+          "feb": "Feb",
+          "mar": "Mär",
+          "apr": "Apr",
+          "may": "Mai",
+          "jun": "Jun",
+          "jul": "Jul",
+          "aug": "Aug",
+          "sep": "Sep",
+          "oct": "Okt",
+          "nov": "Nov",
+          "dec": "Dez"
+        }
+      }
+    },
+    "actions": {
+      "play": "Abspielen",
+      "pause": "Pause",
+      "close": "Schließen",
+      "save": "Speichern",
+      "delete": "Löschen",
+      "edit": "Bearbeiten",
+      "cancel": "Abbrechen",
+      "confirm": "Bestätigen",
+      "reset": "Zurücksetzen",
+      "start": "Starten",
+      "stop": "Stoppen",
+      "skip": "Überspringen",
+      "previous": "Vorherige",
+      "next": "Nächste",
+      "finish": "Fertig",
+      "toggle": "Umschalten",
+      "dismiss": "Schließen",
+      "mute": "Stumm",
+      "unmute": "Laut"
+    },
+    "loading": "Wird geladen...",
+    "error": "Etwas ist schiefgelaufen",
+    "close": "Schließen",
+    "weekdays": {
+      "short": {
+        "monday": "Mo",
+        "tuesday": "Di",
+        "wednesday": "Mi",
+        "thursday": "Do",
+        "friday": "Fr",
+        "saturday": "Sa",
+        "sunday": "So"
+      }
+    }
+  },
+  "notes": {
+    "sheet": {
+      "title": "Notizen",
+      "description": "Schnelle Notizen erfassen"
+    },
+    "search": "Notizen suchen",
+    "pin": "Anheften",
+    "unpin": "Lösen",
+    "title": {
+      "placeholder": "Ohne Titel"
+    },
+    "content": {
+      "placeholder": "Beginne zu schreiben..."
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Willkommen bei Meelio!",
+      "description": "Lass uns einen schnellen Rundgang durch deinen Produktivitätsdock machen."
+    },
+    "timer": {
+      "title": "Pomodoro Timer",
+      "description": "Bleib konzentriert mit unserem Pomodoro timer. Teile deine Arbeit in konzentrierte Sitzungen auf."
+    },
+    "soundscapes": {
+      "title": "Soundscapes",
+      "description": "Immerse dich in beruhigende Umgebungsgeräusche, um deine Produktivität zu steigern."
+    },
+    "breathing": {
+      "title": "Atempod",
+      "description": "Nehme beruhigende Atemübungen, um dich zu entspannen und konzentrieren."
+    },
+    "tasks": {
+      "title": "Aufgabenliste",
+      "description": "Bleib organisiert und halte deine Aufgaben im Auge."
+    },
+    "notes": {
+      "title": "Notizen",
+      "description": "Erfasse schnelle Gedanken in Markdown-unterstützten Notizen."
+    },
+    "site-blocker": {
+      "title": "Seitenblocker",
+      "description": "Blockiere ablenkende Websites während deiner Fokus-Sitzungen."
+    },
+    "tab-stash": {
+      "title": "Tab Stash",
+      "description": "Entscheide dich für deine Browser-Tabs und stecke sie für später zurück."
+    },
+    "bookmarks": {
+      "title": "Lesezeichen",
+      "description": "Zugriff auf und Verwaltung Ihrer Browser-Lesezeichen."
+    },
+    "weather": {
+      "title": "Wetter",
+      "description": "Aktuelles Wetter und 5-Tage-Vorhersage anzeigen."
+    },
+    "background": {
+      "title": "Hintergründe",
+      "description": "Personalisiere deinen Arbeitsbereich mit schönen Hintergründen."
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "description": "Passen Sie Meelio an Ihre Präferenzen und Workflow an."
+    }
+  },
+  "soundscapes": {
+    "dialog": {
+      "title": "Klanglandschaften",
+      "description": "Klanglandschaften sind eine Sammlung von Umgebungsgeräuschen, die Ihnen helfen können, sich zu entspannen, zu konzentrieren oder zu schlafen."
+    },
+    "player": {
+      "loading": "Klang wird geladen...",
+      "error": "Fehler beim Laden des Klangs",
+      "volume": "Lautstärke"
+    }
+  },
+  "home": {
+    "greetings": {
+      "morning": "☕ Guten Morgen",
+      "afternoon": "🌤️ Guten Tag",
+      "evening": "🌿 Guten Abend",
+      "night": "🌙 Gute Nacht"
+    },
+    "quote": {
+      "text": "Dein Leben ist darauf ausgerichtet, die Ergebnisse zu erzielen, die du jetzt bekommst. Ob du es realisierst oder nicht, du bist der Architekt",
+      "author": "Jim Rohn",
+      "aria": {
+        "quote": "Inspirierendes Zitat",
+        "author": "Autor des Zitats"
+      }
+    },
+    "layout": {
+      "main": {
+        "aria": "Hauptinhalt"
+      },
+      "footer": {
+        "aria": "Anwendungsdock"
+      }
+    }
+  },
+  "tasks": {
+    "sheet": {
+      "title": "Aufgabenliste",
+      "empty": "Noch keine Aufgaben",
+      "add": "Neue Liste",
+      "description": "Bleib organisiert und halte deine Aufgaben im Auge.",
+      "input": {
+        "placeholder": "Was muss erledigt werden?"
+      }
+    },
+    "item": {
+      "completed": "Erledigt",
+      "uncompleted": "Nicht erledigt"
+    },
+    "list": {
+      "create": {
+        "title": "Neue Liste erstellen",
+        "description": "Erstelle eine neue Liste, um deine Aufgaben zu organisieren. Wähle ein Emoji und gib ihr einen Namen.",
+        "emoji": {
+          "label": "Listen-Symbol",
+          "selected": "Ausgewähltes Emoji: {{emoji}}",
+          "select": "Emoji {{emoji}} auswählen"
+        },
+        "name": {
+          "label": "Listenname",
+          "placeholder": "Listennamen eingeben"
+        },
+        "button": "Liste erstellen",
+        "tooltip": "Erstelle unbegrenzt benutzerdefinierte Aufgabenlisten und organisiere deine Aufgaben nach deinen Wünschen!"
+      },
+      "empty": "Keine Aufgaben",
+      "task": {
+        "add": {
+          "completed": "Erledigte Aufgabe hinzufügen",
+          "normal": "Aufgabe hinzufügen"
+        }
+      }
+    },
+    "category": {
+      "select": "Kategorie auswählen",
+      "none": "Keine Kategorie",
+      "manage": "Kategorien verwalten"
+    }
+  },
+  "sidebar": {
+    "app": {
+      "title": "Meelio",
+      "sections": {
+        "productivity": "Produktivität",
+        "wellbeing": "Wohlbefinden"
+      },
+      "login": "Login",
+      "register": "Registrieren",
+      "account": "Account",
+      "billing": "Abrechnung",
+      "upgradeToPro": "Upgrade zu Pro",
+      "logout": "Logout",
+      "toggle": "Umschalten"
+    }
+  },
+  "breathing": {
+    "method": {
+      "title": "Atemmethode",
+      "description": "Wähle eine Atemmethode, die dir hilft, dich zu entspannen und zu konzentrieren",
+      "change": "Atemmethode ändern",
+      "methods": {
+        "calmDown": {
+          "name": "Beruhigen",
+          "description": "4-6 Verlängerte Ausatmung",
+          "details": "4 Sekunden einatmen, 6 Sekunden ausatmen"
+        },
+        "clearMind": {
+          "name": "Geist klären",
+          "description": "4-4 Gleichmäßige Atmung",
+          "details": "4 Sekunden einatmen, 4 Sekunden ausatmen"
+        },
+        "relaxDeeply": {
+          "name": "Tief entspannen",
+          "description": "4-7-8 Atmung",
+          "details": "4 Sekunden einatmen, 7 Sekunden halten, 8 Sekunden ausatmen"
+        },
+        "relieveStress": {
+          "name": "Stress abbauen",
+          "description": "4-4-4-4 Box-Atmung",
+          "details": "4 Sekunden einatmen, 4 Sekunden halten, 4 Sekunden ausatmen, 4 Sekunden halten"
+        }
+      }
+    }
+  },
+  "timer": {
+    "stages": {
+      "focus": "Fokus",
+      "shortBreak": "Kurze Pause",
+      "longBreak": "Lange Pause"
+    },
+    "stats": {
+      "title": "Statistiken",
+      "description": "Fokus- und Pausenzeit der Woche",
+      "chart": {
+        "focus": "Fokus",
+        "breaks": "Pausen",
+        "minutes": "Min",
+        "weekday": {
+          "format": "short"
+        }
+      }
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "description": "Timer-Einstellungen konfigurieren",
+      "timer": {
+        "title": "Timer",
+        "description": "Konfiguriere die Timer-Einstellungen in Minuten, empfohlene Werte liegen zwischen 1 und 60 Minuten."
+      },
+      "pomodoro": {
+        "label": "Pomodoro",
+        "shortBreak": "Kurze Pause",
+        "longBreak": "Lange Pause"
+      },
+      "autoStart": {
+        "label": "Pausen automatisch starten",
+        "description": "Starte Pausen nach Arbeitseinheiten automatisch, z.B. nach 25 Minuten Arbeitszeit automatisch eine 5-minütige Pause starten."
+      },
+      "sound": {
+        "label": "Töne aktivieren",
+        "description": "Spiele Töne ab, wenn der Timer endet und Pausen beginnen."
+      },
+      "reset": {
+        "label": "Pomodoro Timer zurücksetzen",
+        "description": "Bist du sicher, dass du den Timer zurücksetzen möchtest? Dies setzt den Timer auf die Standardeinstellungen zurück.",
+        "button": "Zurücksetzen"
+      },
+      "toast": {
+        "success": "Einstellungen gespeichert",
+        "description": "Deine Einstellungen wurden gespeichert."
+      }
+    },
+    "reset": {
+      "title": "Timer zurücksetzen",
+      "description": "Bist du sicher, dass du den Timer zurücksetzen möchtest? Der gesamte Fortschritt geht verloren."
+    },
+    "limitReached": {
+      "toast": "Tägliches 90-Minuten-Limit erreicht!",
+      "title": "Tägliches Limit erreicht",
+      "description": "Großartige Arbeit heute! Upgrade auf Pro für unbegrenzte Zeit."
+    },
+    "controls": {
+      "focusMode": "Fokusmodus",
+      "breakMode": "Pausenmodus",
+      "reset": "Timer zurücksetzen",
+      "startStop": "Timer starten/stoppen",
+      "skipStage": "Zum nächsten Abschnitt springen"
+    }
+  },
+  "settings": {
+    "tabs": {
+      "comingSoon": "Dieser Tab ist noch nicht verfügbar",
+      "generalDescription": "Verwalte deine Kontoeinstellungen"
+    },
+    "dialog": {
+      "title": "Einstellungen",
+      "description": "Verwalte deine Kontoeinstellungen"
+    },
+    "nav": {
+      "home": "Startseite",
+      "general": "Allgemein",
+      "notifications": "Benachrichtigungen",
+      "appearance": "Erscheinungsbild",
+      "account": "Konto",
+      "billing": "Abrechnung",
+      "privacy": "Datenschutz & Sichtbarkeit",
+      "advanced": "Erweitert",
+      "language": "Sprache",
+      "dock": "Dock",
+      "feedback": "Feedback",
+      "timer": "Timer",
+      "data": "Daten"
+    },
+    "general": {
+      "title": "Allgemein",
+      "description": "Konfiguriere die allgemeinen Einstellungen",
+      "mantraRotation": {
+        "title": "Mantra Rotation",
+        "description": "Rotiere Mantras mit Begrüßungen beim Seitenladen"
+      },
+      "wallpaperRotation": {
+        "title": "Hintergrund Rotation",
+        "description": "Rotiere neue Hintergründe jeden Tag"
+      },
+      "onboardingReset": {
+        "title": "Onboarding",
+        "description": "Zeige die Dock-Onboarding-Tour erneut an",
+        "button": "Neustart",
+        "error": "Fehler beim Zurücksetzen des Onboardings"
+      },
+      "confettiOnComplete": {
+        "title": "Aufgaben-Konfetti",
+        "description": "Feiere erledigte Aufgaben mit Konfetti",
+        "error": "Fehler beim Aktualisieren der Einstellung"
+      },
+      "twelveHourClock": {
+        "title": "24-Stunden-Uhr",
+        "description": "Zeit im 24-Stunden-Format anzeigen"
+      }
+    },
+    "appearance": {
+      "title": "Erscheinungsbild",
+      "description": "Konfiguriere das Erscheinungsbild der Anwendung",
+      "themeUpdated": "Thema aktualisiert",
+      "theme": {
+        "label": "Thema",
+        "description": "Wähle das Thema für die Anwendung",
+        "light": "Hell",
+        "dark": "Dunkel",
+        "system": "System"
+      }
+    },
+    "dock": {
+      "title": "Dock-Einstellungen",
+      "description": "Passe an, welche Elemente in deinem Dock angezeigt werden",
+      "visibility": {
+        "title": "Dock-Element-Sichtbarkeit",
+        "description": "Steuere, welche Elemente im Dock sichtbar sind"
+      },
+      "show-icon-labels": {
+        "title": "Icon-Labels anzeigen",
+        "description": "Zeige die Labels für die Icons im Dock an"
+      },
+      "timer": {
+        "description": "Timer für fokussierte Arbeitssitzungen"
+      },
+      "soundscapes": {
+        "description": "Umgebungsgeräusche zur Konzentrationssteigerung"
+      },
+      "breathing": {
+        "description": "Geführte Atemübungen"
+      },
+      "tasks": {
+        "description": "Aufgabenverwaltung"
+      },
+      "site-blocker": {
+        "description": "Ablenkende Websites blockieren"
+      },
+      "tab-stash": {
+        "description": "Browser-Tabs speichern und organisieren"
+      },
+      "bookmarks": {
+        "description": "Auf deine Lesezeichen zugreifen"
+      },
+      "weather": {
+        "description": "Aktuelles Wetter und Vorhersage anzeigen"
+      },
+      "background": {
+        "description": "Ändere deinen Hintergrund"
+      },
+      "clock": {
+        "description": "Systemzeit und Datum"
+      },
+      "calendar": {
+        "description": "Kalenderansicht und Ereignisse"
+      }
+    },
+    "account": {
+      "description": "Verwalte dein Konto",
+      "updateError": "Fehler beim Aktualisieren des Kontos",
+      "nameUpdated": "Name aktualisiert",
+      "name": {
+        "label": "Name",
+        "description": "Bitte gib deinen Namen ein",
+        "placeholder": "Zain Zafar"
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "Teile deine Meinung mit uns",
+      "button": "Feedback geben"
+    },
+    "billing": {
+      "title": "Abrechnung",
+      "description": "Verwalte deine Abrechnung"
+    },
+    "language": {
+      "title": "Sprache",
+      "description": "Wähle deine bevorzugte Sprache"
+    }
+  },
+  "profile": {
+    "image": {
+      "alt": "Profil"
+    },
+    "your-profile": "Dein Profil",
+    "meelio-version": "Meelio Version:"
+  },
+  "backgrounds": {
+    "title": "Hintergrund ändern",
+    "description": "Wähle einen Hintergrund um den Bildschirm zu ändern",
+    "addNew": "Neuen Hintergrund hinzufügen",
+    "source": "Quelle",
+    "author": "Autor",
+    "liveWallpapers": "Lebende Hintergründe",
+    "staticWallpapers": "Statische Hintergründe",
+    "resetToDefault": "Zurücksetzen auf Standard",
+    "randomBackground": "Zufälliger Hintergrund",
+    "currentWallpaper": "Aktueller Hintergrund",
+    "searchPlaceholder": "Hintergründe suchen...",
+    "allWallpapers": "Alle Hintergründe"
+  },
+  "site-blocker": {
+    "title": "Seitenblocker",
+    "description": "Blockiere Websites, um fokussiert zu bleiben",
+    "extension-only": "Die Funktion zum Blockieren von Websites ist nur in der Browser-Erweiterung verfügbar.",
+    "get-extension": "Erweiterung herunterladen",
+    "upgrade": "Auf Pro upgraden",
+    "premium-feature-title": "Premium Seitenblocker",
+    "premium-feature": "Upgrade auf Pro, um unbegrenzt ablenkende Websites zu blockieren und fokussiert zu bleiben."
+  },
+  "tab-stash": {
+    "title": "Tab-Stash",
+    "description": "Stacke deine Tabs für später",
+    "extension-only": "Tab stash Funktionalität ist nur in der Browser-Erweiterung verfügbar.",
+    "get-extension": "Erweiterung bekommen",
+    "stash-all": "Alle Fenster staken",
+    "stash-current": "Aktuelles Fenster staken",
+    "needs-permission": "Bitte gewähren Sie die notwendigen Berechtigungen, um die Erweiterung zu verwenden.",
+    "grant-permission": "Berechtigung gewähren",
+    "permissions-needed": "Zusätzliche Berechtigungen erforderlich",
+    "permissions-description": "Wir benötigen Berechtigungen, um Ihre Registerkarten zu verwalten, um diese Funktion zu verwenden"
+  },
+  "bookmarks": {
+    "title": "Lesezeichen",
+    "description": "Verwalte deine Lesezeichen",
+    "extension-only": "Lesezeichen sind nur in der Erweiterung verfügbar",
+    "get-extension": "Erweiterung erhalten",
+    "needs-permission": "Lesezeichen-Berechtigung erforderlich",
+    "grant-permission": "Berechtigung gewähren",
+    "empty": "Keine Lesezeichen gefunden",
+    "refresh": "Aktualisieren",
+    "links": "Links",
+    "folders": "Ordner"
+  },
+  "weather": {
+    "title": "Wetter",
+    "description": "Aktuelles Wetter und 5-Tage-Vorhersage",
+    "current": "Aktuell",
+    "forecast": "5-Tage-Vorhersage",
+    "today": "Heute",
+    "tomorrow": "Morgen",
+    "refresh": "Aktualisieren",
+    "empty": "Keine Wetterdaten verfügbar",
+    "retry": "Erneut versuchen",
+    "premium-feature-title": "Premium Wetter",
+    "premium-feature": "Wettervorhersagen und Standortsuche sind für Pro-Benutzer verfügbar",
+    "upgrade": "Auf Pro upgraden",
+    "set-location": "Standort festlegen",
+    "search-placeholder": "Nach einer Stadt suchen...",
+    "search-error": "Standortsuche fehlgeschlagen",
+    "location-saved": "Standort erfolgreich gespeichert",
+    "save-error": "Standort konnte nicht gespeichert werden"
+  },
+  "calendar": {
+    "sheet": {
+      "title": "Kalender",
+      "connect": "Verbinden",
+      "connected": "GoogleKalender aktiviert",
+      "disconnect": "Verbindung trennen",
+      "nextEvent": "Nächster Termin",
+      "joinMeeting": "Meeting beitreten",
+      "meetingLinkCopied": "Meeting-Link kopiert",
+      "happeningNow": "Gerade Jetzt",
+      "today": "Heute",
+      "upcoming": "Bevorstehend"
+    }
+  },
+  "auth": {
+    "verify": {
+      "verifying": "Dein Konto wird verifiziert...",
+      "success": {
+        "title": "Erfolgreich verifiziert!",
+        "description": "Willkommen zurück bei Meelio."
+      },
+      "failed": {
+        "title": "Verifizierung fehlgeschlagen",
+        "description": "Dein Link sollte 10 Minuten gültig sein. Bitte versuche es erneut."
+      }
+    },
+    "login": {
+      "title": "Willkommen zurück",
+      "description": "Melde dich bei deinem Meelio-Konto an",
+      "register": "Noch kein Konto? Registrieren",
+      "guest": "Als Gast fortfahren"
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "description": "Gib deine E-Mail ein, um dein Konto zu erstellen",
+      "login": "Du hast bereits ein Konto? Anmelden",
+      "privacy": "Durch Klicken auf Weiter stimmst du unserer Datenschutzrichtlinie zu."
+    }
+  }
+}

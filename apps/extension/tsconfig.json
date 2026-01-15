@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "plasmo/templates/tsconfig.base",
+    "@repo/typescript-config/base.json"
+  ],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": [
+    ".plasmo/index.d.ts",
+    "./**/*.ts",
+    "./**/*.tsx",
+    "tailwind.config.ts",
+    "postcss.config.js",
+    "prettier.config.mjs"
+  ],
+  "exclude": ["node_modules", "build", "dist", ".plasmo"]
+}

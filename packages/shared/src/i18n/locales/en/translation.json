@@ -1,0 +1,579 @@
+{
+  "common": {
+    "home": "Home",
+    "pomodoro": "Pomodoro",
+    "soundscapes": "Soundscapes",
+    "breathing": "Breathepod",
+    "settings": "Settings",
+    "tasks": "Tasks",
+    "notes": "Notes",
+    "site-blocker": "Site Blocker",
+    "background": "Background",
+    "tab-stash": "Tab Stash",
+    "bookmarks": "Bookmarks",
+    "weather": "Weather",
+    "clock": "Clock",
+    "calendar": "Calendar",
+    "calendarData": {
+      "months": {
+        "short": {
+          "jan": "Jan",
+          "feb": "Feb",
+          "mar": "Mar",
+          "apr": "Apr",
+          "may": "May",
+          "jun": "Jun",
+          "jul": "Jul",
+          "aug": "Aug",
+          "sep": "Sep",
+          "oct": "Oct",
+          "nov": "Nov",
+          "dec": "Dec"
+        }
+      }
+    },
+    "actions": {
+      "play": "Play",
+      "pause": "Pause",
+      "close": "Close",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "reset": "Reset",
+      "start": "Start",
+      "stop": "Stop",
+      "skip": "Skip",
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish",
+      "toggle": "Toggle",
+      "dismiss": "Dismiss",
+      "mute": "Mute",
+      "unmute": "Unmute"
+    },
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "close": "Close",
+    "weekdays": {
+      "short": {
+        "monday": "Mon",
+        "tuesday": "Tue",
+        "wednesday": "Wed",
+        "thursday": "Thu",
+        "friday": "Fri",
+        "saturday": "Sat",
+        "sunday": "Sun"
+      }
+    }
+  },
+  "notes": {
+    "sheet": {
+      "title": "Notes",
+      "description": "Capture quick notes"
+    },
+    "search": "Search notes",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "title": {
+      "placeholder": "Untitled"
+    },
+    "content": {
+      "placeholder": "Start writing..."
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome to Meelio!",
+      "description": "Let's take a quick tour of your productivity dock."
+    },
+    "timer": {
+      "title": "Pomodoro Timer",
+      "description": "Stay focused with our Pomodoro timer. Break your work into focused sessions."
+    },
+    "soundscapes": {
+      "title": "Soundscapes",
+      "description": "Immerse yourself in calming ambient sounds to boost your productivity."
+    },
+    "breathing": {
+      "title": "Breathing Exercises",
+      "description": "Take mindful breaks with guided breathing exercises."
+    },
+    "tasks": {
+      "title": "Task List",
+      "description": "Keep track of your tasks and stay organized."
+    },
+    "notes": {
+      "title": "Notes",
+      "description": "Capture quick thoughts in markdown-powered notes."
+    },
+    "site-blocker": {
+      "title": "Site Blocker",
+      "description": "Block distracting websites during your focus sessions."
+    },
+    "tab-stash": {
+      "title": "Tab Stash",
+      "description": "Declutter your browser by stashing away tabs for later."
+    },
+    "bookmarks": {
+      "title": "Bookmarks",
+      "description": "Access and manage your browser bookmarks."
+    },
+    "weather": {
+      "title": "Weather",
+      "description": "View current weather and 5-day forecast."
+    },
+    "background": {
+      "title": "Backgrounds",
+      "description": "Personalize your workspace with beautiful backgrounds."
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Customize Meelio to match your preferences and workflow."
+    }
+  },
+  "soundscapes": {
+    "dialog": {
+      "title": "Soundscapes",
+      "description": "Soundscapes are a collection of ambient sounds that can help you relax, focus, or sleep."
+    },
+    "player": {
+      "loading": "Loading sound...",
+      "error": "Error loading sound",
+      "volume": "Volume"
+    }
+  },
+  "home": {
+    "greetings": {
+      "morning": "☕ Good morning",
+      "afternoon": "🌤️ Good afternoon",
+      "evening": "🌿 Good evening",
+      "night": "🌙 Good night"
+    },
+    "quote": {
+      "text": "Your life is designed to get the results you are getting right now. Whether you realize it or not, you are the architect",
+      "author": "Jim Rohn",
+      "aria": {
+        "quote": "Inspirational quote",
+        "author": "Quote author"
+      }
+    },
+    "layout": {
+      "main": {
+        "aria": "Main content area"
+      },
+      "footer": {
+        "aria": "Application dock"
+      }
+    }
+  },
+  "tasks": {
+    "sheet": {
+      "title": "Task List",
+      "empty": "No tasks yet",
+      "add": "New List",
+      "description": "Stay on top of your work, projects, and goals.",
+      "input": {
+        "placeholder": "What needs to be done?"
+      }
+    },
+    "item": {
+      "completed": "Completed",
+      "uncompleted": "Uncompleted"
+    },
+    "list": {
+      "create": {
+        "title": "Create New List",
+        "description": "Create a new list to organize your tasks. Choose an emoji and give it a name.",
+        "emoji": {
+          "label": "List Icon",
+          "selected": "Selected emoji: {{emoji}}",
+          "select": "Select emoji {{emoji}}"
+        },
+        "name": {
+          "label": "List Name",
+          "placeholder": "Enter list name"
+        },
+        "button": "Create List",
+        "tooltip": "Create unlimited custom task lists and organize your tasks your way!"
+      },
+      "empty": "No tasks",
+      "task": {
+        "add": {
+          "completed": "Add a completed task",
+          "normal": "Add a task"
+        }
+      }
+    },
+    "category": {
+      "select": "Select category",
+      "none": "No category",
+      "manage": "Manage categories"
+    }
+  },
+  "sidebar": {
+    "app": {
+      "title": "Meelio",
+      "sections": {
+        "productivity": "Productivity",
+        "wellbeing": "Wellbeing"
+      },
+      "login": "Login",
+      "register": "Register",
+      "account": "Account",
+      "billing": "Billing",
+      "upgradeToPro": "Upgrade to Pro",
+      "logout": "Logout",
+      "toggle": "Toggle"
+    }
+  },
+  "breathing": {
+    "method": {
+      "title": "Breathing Method",
+      "description": "Select a breathing method to help you relax and focus",
+      "change": "Change Breathe Method",
+      "methods": {
+        "calmDown": {
+          "name": "Calm Down",
+          "description": "4-6 Extended Exhale",
+          "details": "Inhale for 4 seconds, exhale for 6 seconds"
+        },
+        "clearMind": {
+          "name": "Clear the Mind",
+          "description": "4-4 Equal Breathing",
+          "details": "Inhale for 4 seconds, exhale for 4 seconds"
+        },
+        "relaxDeeply": {
+          "name": "Relax Deeply",
+          "description": "4-7-8 Breathing",
+          "details": "Inhale for 4 seconds, hold for 7 seconds, exhale for 8 seconds"
+        },
+        "relieveStress": {
+          "name": "Relieve Stress",
+          "description": "4-4-4-4 Box Breathing",
+          "details": "Inhale for 4 seconds, hold for 4 seconds, exhale for 4 seconds, hold for 4 seconds"
+        }
+      }
+    }
+  },
+  "timer": {
+    "stages": {
+      "focus": "Focus",
+      "shortBreak": "Short Break",
+      "longBreak": "Long Break"
+    },
+    "stats": {
+      "title": "Stats",
+      "description": "Focus and break time for the week",
+      "chart": {
+        "focus": "Focus",
+        "breaks": "Breaks",
+        "minutes": "mins",
+        "weekday": {
+          "format": "short"
+        }
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Configure the timer settings",
+      "timer": {
+        "title": "Timer",
+        "description": "Configure the timer settings in minutes, recommended values are between 1 and 60 minutes."
+      },
+      "pomodoro": {
+        "label": "Pomodoro",
+        "shortBreak": "Short Break",
+        "longBreak": "Long Break"
+      },
+      "autoStart": {
+        "label": "Auto Start Breaks",
+        "description": "Start breaks after work sessions, i.e. after 25 minutes of work time automatically start a 5 minute break."
+      },
+      "sound": {
+        "label": "Enable Sounds",
+        "description": "Play sounds when the timer ends, and when breaks start."
+      },
+      "reset": {
+        "label": "Reset Pomodoro Timer",
+        "description": "Are you sure you want to reset the timer? This will reset the timer to the default settings.",
+        "button": "Reset"
+      },
+      "toast": {
+        "success": "Settings saved",
+        "description": "Your settings have been saved."
+      }
+    },
+    "reset": {
+      "title": "Reset Timer",
+      "description": "Are you sure you want to reset the timer? All progress will be lost."
+    },
+    "limitReached": {
+      "toast": "Daily 90-minute limit reached!",
+      "title": "Daily limit reached",
+      "description": "Great work today! Upgrade to Pro for unlimited time."
+    },
+    "controls": {
+      "focusMode": "Focus mode",
+      "breakMode": "Break mode",
+      "reset": "Reset timer",
+      "startStop": "Start/Stop timer",
+      "skipStage": "Skip to next stage"
+    }
+  },
+  "settings": {
+    "tabs": {
+      "comingSoon": "This tab is not available yet",
+      "generalDescription": "Manage your account settings"
+    },
+    "dialog": {
+      "title": "Settings",
+      "description": "Manage your account settings"
+    },
+    "nav": {
+      "home": "Home",
+      "general": "General",
+      "notifications": "Notifications",
+      "appearance": "Appearance",
+      "account": "Account",
+      "billing": "Billing",
+      "privacy": "Privacy & visibility",
+      "advanced": "Advanced",
+      "language": "Language",
+      "dock": "Dock",
+      "feedback": "Feedback",
+      "timer": "Timer",
+      "data": "Data"
+    },
+    "general": {
+      "title": "General",
+      "description": "Configure the general settings",
+      "mantraRotation": {
+        "title": "Mantra Rotation",
+        "description": "Rotate mantras with greetings on page load"
+      },
+      "wallpaperRotation": {
+        "title": "Wallpaper Rotation",
+        "description": "Rotate fresh wallpapers every day"
+      },
+      "onboardingReset": {
+        "title": "Onboarding",
+        "description": "Show the dock onboarding tour again",
+        "button": "Restart",
+        "error": "Failed to reset onboarding"
+      },
+      "confettiOnComplete": {
+        "title": "Task Confetti",
+        "description": "Celebrate completed tasks with confetti",
+        "error": "Failed to update setting"
+      },
+      "twelveHourClock": {
+        "title": "24-Hour Clock",
+        "description": "Display time in 24-hour format"
+      }
+    },
+    "appearance": {
+      "title": "Appearance",
+      "description": "Configure the appearance settings",
+      "themeUpdated": "Theme updated",
+      "theme": {
+        "label": "Theme",
+        "description": "Select the theme for the application",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      }
+    },
+    "dock": {
+      "title": "Dock Settings",
+      "description": "Customize which items appear in your dock",
+      "visibility": {
+        "title": "Dock Items Visibility",
+        "description": "Control which items are visible in the dock"
+      },
+      "show-icon-labels": {
+        "title": "Show Icon Labels",
+        "description": "Show the labels for the icons in the dock"
+      },
+      "timer": {
+        "description": "Timer for focused work sessions"
+      },
+      "soundscapes": {
+        "description": "Ambient sounds to help you focus"
+      },
+      "breathing": {
+        "description": "Guided breathing exercises"
+      },
+      "tasks": {
+        "description": "Task management"
+      },
+      "site-blocker": {
+        "description": "Block distracting websites"
+      },
+      "tab-stash": {
+        "description": "Save and organize browser tabs"
+      },
+      "bookmarks": {
+        "description": "Access your bookmarks"
+      },
+      "weather": {
+        "description": "View current weather and forecast"
+      },
+      "background": {
+        "description": "Change your background"
+      },
+      "clock": {
+        "description": "System time and date"
+      },
+      "calendar": {
+        "description": "View upcoming events"
+      },
+      "notes": {
+        "description": "Quick notes and thoughts"
+      }
+    },
+    "account": {
+      "description": "Manage account and website settings.",
+      "updateError": "Error updating account",
+      "nameUpdated": "Name updated",
+      "name": {
+        "label": "Name",
+        "description": "Please enter your name",
+        "placeholder": "Zain Zafar"
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "Share your feedback with us",
+      "button": "Share Feedback"
+    },
+    "billing": {
+      "title": "Billing",
+      "description": "Manage your billing"
+    },
+    "language": {
+      "title": "Language",
+      "description": "Select your preferred language"
+    }
+  },
+  "profile": {
+    "image": {
+      "alt": "Profile"
+    },
+    "your-profile": "Your profile",
+    "meelio-version": "Meelio Version:"
+  },
+  "backgrounds": {
+    "title": "Change Background",
+    "description": "Select a background to change the wallpaper",
+    "addNew": "Add New Background",
+    "source": "Source",
+    "author": "Author",
+    "liveWallpapers": "Live Wallpapers",
+    "staticWallpapers": "Static Wallpapers",
+    "resetToDefault": "Reset to Default",
+    "randomBackground": "Random Background",
+    "currentWallpaper": "Current Wallpaper",
+    "searchPlaceholder": "Search wallpapers...",
+    "allWallpapers": "All Wallpapers"
+  },
+  "site-blocker": {
+    "title": "Site Blocker",
+    "description": "Block websites to help you stay focused",
+    "extension-only": "Site blocking functionality is only available in the browser extension.",
+    "get-extension": "Get the Extension",
+    "upgrade": "Upgrade to Pro",
+    "premium-feature-title": "Premium Site Blocker",
+    "premium-feature": "Upgrade to Pro to block unlimited distracting websites and stay focused."
+  },
+  "tab-stash": {
+    "title": "Tab Stash",
+    "description": "Stash your tabs for later",
+    "extension-only": "Tab stash functionality is only available in the browser extension.",
+    "get-extension": "Get the Extension",
+    "stash-all": "Stash All Windows",
+    "stash-current": "Stash Current Window",
+    "needs-permission": "Please grant the necessary permissions to use the extension.",
+    "grant-permission": "Grant Permission",
+    "permissions-needed": "Additional permissions required",
+    "permissions-description": "We need permission to manage your tabs to use this feature"
+  },
+  "bookmarks": {
+    "title": "Bookmarks",
+    "description": "Manage your bookmarks",
+    "extension-only": "Bookmarks available in extension only",
+    "get-extension": "Get the Extension",
+    "needs-permission": "Bookmarks permission required",
+    "grant-permission": "Grant Permission",
+    "empty": "No bookmarks found",
+    "refresh": "Refresh",
+    "links": "links",
+    "folders": "folders"
+  },
+  "weather": {
+    "title": "Weather",
+    "description": "Current weather and 5-day forecast",
+    "current": "Current",
+    "forecast": "5-Day Forecast",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "refresh": "Refresh",
+    "empty": "No weather data available",
+    "retry": "Retry",
+    "premium-feature-title": "Premium Weather",
+    "premium-feature": "Weather forecasts and location search are available for Pro users",
+    "upgrade": "Upgrade to Pro",
+    "set-location": "Set Location",
+    "search-placeholder": "Search for a city...",
+    "search-error": "Failed to search locations",
+    "location-saved": "Location saved successfully",
+    "save-error": "Failed to save location"
+  },
+  "calendar": {
+    "sheet": {
+      "title": "Calendar",
+      "connect": "Connect",
+      "connected": "Google Calendar enabled",
+      "disconnect": "Disconnect",
+      "nextEvent": "Next event",
+      "joinMeeting": "Join Meeting",
+      "meetingLinkCopied": "Meeting link copied",
+      "happeningNow": "Happening Now",
+      "today": "Today",
+      "upcoming": "Upcoming",
+      "connectTitle": "Connect Your Calendar",
+      "connectSubtitle": "View your events right from your new tab",
+      "howToConnect": "How to get your ICS URL",
+      "step1": "Open Google Calendar settings",
+      "step2": "Select your calendar → Integrate calendar",
+      "step3": "Copy \"Secret address in iCal format\"",
+      "openSettings": "Open Google Calendar Settings"
+    }
+  },
+  "auth": {
+    "verify": {
+      "verifying": "Verifying your account...",
+      "success": {
+        "title": "Successfully verified!",
+        "description": "Welcome back to Meelio."
+      },
+      "failed": {
+        "title": "Verification failed",
+        "description": "Your link should be valid for 10 minutes. Please try again."
+      }
+    },
+    "login": {
+      "title": "Welcome back",
+      "description": "Sign in to your Meelio Account",
+      "register": "Don't have an account? Sign Up",
+      "guest": "Continue as Guest"
+    },
+    "register": {
+      "title": "Create an account",
+      "description": "Provide email to create your account",
+      "login": "Already have an account? Sign In",
+      "privacy": "By clicking continue, you agree to our Privacy Policy."
+    }
+  }
+}
