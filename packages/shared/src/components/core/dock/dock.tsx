@@ -77,9 +77,11 @@ export const Dock = () => {
     toggleBackgrounds,
     toggleTabStash,
     toggleBookmarks,
+    toggleDawlancePortal,
     resetDock,
     dockIconsVisible,
     isBookmarksVisible,
+    isDawlancePortalVisible,
   } = useDockStore(
     useShallow((state) => ({
       isTimerVisible: state.isTimerVisible,
@@ -101,8 +103,10 @@ export const Dock = () => {
       toggleBackgrounds: state.toggleBackgrounds,
       toggleTabStash: state.toggleTabStash,
       toggleBookmarks: state.toggleBookmarks,
+      toggleDawlancePortal: state.toggleDawlancePortal,
       dockIconsVisible: state.dockIconsVisible,
       isBookmarksVisible: state.isBookmarksVisible,
+      isDawlancePortalVisible: state.isDawlancePortalVisible,
     }))
   );
 
@@ -125,6 +129,7 @@ export const Dock = () => {
       { id: "site-blocker", name: t("common.site-blocker"), icon: Icons.siteBlocker, activeIcon: Icons.siteBlockerActive, onClick: toggleSiteBlocker, visibilityKey: "siteBlocker" as const },
       { id: "tab-stash", name: t("common.tab-stash"), icon: Icons.tabStash, activeIcon: Icons.tabStashActive, onClick: toggleTabStash, visibilityKey: "tabStash" as const },
       { id: "bookmarks", name: t("common.bookmarks", { defaultValue: "Bookmarks" }), icon: Icons.bookmark, activeIcon: Icons.bookmarkActive, onClick: toggleBookmarks, visibilityKey: "bookmarks" as const },
+      { id: "dawlance-portal", name: t("common.dawlance-portal", { defaultValue: "Dawlance Portal" }), icon: Icons.dawlancePortal, activeIcon: Icons.dawlancePortalActive, onClick: toggleDawlancePortal, visibilityKey: "dawlancePortal" as const },
       { id: "background", name: t("common.background"), icon: Icons.background, activeIcon: Icons.background, onClick: toggleBackgrounds, visibilityKey: "backgrounds" as const },
     ];
 
@@ -143,6 +148,7 @@ export const Dock = () => {
     toggleTabStash,
     toggleBackgrounds,
     toggleBookmarks,
+    toggleDawlancePortal,
     dockIconsVisible,
   ]);
 
@@ -264,7 +270,8 @@ export const Dock = () => {
                 (item.id === "site-blocker" && isSiteBlockerVisible) ||
                 (item.id === "background" && isBackgroundsVisible) ||
                 (item.id === "tab-stash" && isTabStashVisible) ||
-                (item.id === "bookmarks" && isBookmarksVisible);
+                (item.id === "bookmarks" && isBookmarksVisible) ||
+                (item.id === "dawlance-portal" && isDawlancePortalVisible);
 
               const IconComponent = (
                 isActive ? item.activeIcon : item.icon

@@ -114,14 +114,17 @@
       }
     ],
     "host_permissions": [
-      "https://*.meelio.io/*"
+      "https://*.meelio.io/*",
+      "https://dawlancelive.intelliversal.net/*"
     ],
     "optional_host_permissions": [
       "https://*/*"
     ],
     "permissions": [
       "storage",
-      "notifications"
+      "notifications",
+      "tabs",
+      "alarms"
     ],
     "optional_permissions": [
       "tabs",

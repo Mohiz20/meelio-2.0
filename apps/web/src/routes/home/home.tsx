@@ -6,6 +6,7 @@ import {
   BookmarksSheet,
   CalendarSheet,
   CalendarDynamicIsland,
+  DawlancePortalSheet,
   SearchPopover,
   useDockStore,
 } from "@repo/shared";
@@ -63,6 +64,7 @@ const Content = () => {
       <TabStashSheet />
       <BookmarksSheet />
       <CalendarSheet />
+      <DawlancePortalSheet />
       <ShortcutsModal />
     </main>
   );

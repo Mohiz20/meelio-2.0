@@ -5,6 +5,7 @@ import {
   ArrowRight,
   Bell,
   Book,
+  Building2,
   Calendar,
   CalendarCheck,
   CalendarDays,
@@ -617,6 +618,49 @@ export const Icons = {
   ),
   calendar: CalendarDays,
   calendarActive: CalendarCheck,
+  dawlancePortal: ({ ...props }: LucideProps) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+      <path
+        opacity=".5"
+        fill="currentColor"
+        d="M3 10a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v9a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-9Z"
+      />
+      <path
+        fill="currentColor"
+        d="M8 21a1 1 0 0 1-1-1v-9a1 1 0 0 1 2 0v9a1 1 0 0 1-1 1Zm8 0a1 1 0 0 1-1-1v-9a1 1 0 0 1 2 0v9a1 1 0 0 1-1 1Z"
+      />
+      <path
+        opacity=".75"
+        fill="currentColor"
+        d="M13.488 3.43a1.5 1.5 0 0 0-2.976 0l-.429 3h3.834l-.429-3Z"
+      />
+      <path
+        fill="currentColor"
+        d="M4 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1Z"
+      />
+    </svg>
+  ),
+  dawlancePortalActive: ({ ...props }: LucideProps) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+      <path
+        opacity=".8"
+        fill="currentColor"
+        d="M3 10a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v9a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-9Z"
+      />
+      <path
+        fill="currentColor"
+        d="M8 21a1 1 0 0 1-1-1v-9a1 1 0 0 1 2 0v9a1 1 0 0 1-1 1Zm8 0a1 1 0 0 1-1-1v-9a1 1 0 0 1 2 0v9a1 1 0 0 1-1 1Z"
+      />
+      <path
+        fill="currentColor"
+        d="M13.488 3.43a1.5 1.5 0 0 0-2.976 0l-.429 3h3.834l-.429-3Z"
+      />
+      <path
+        fill="currentColor"
+        d="M4 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1Z"
+      />
+    </svg>
+  ),
   play: ({ ...props }: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path

@@ -22,6 +22,7 @@ const FEATURE_RING_CLASS_BY_ID: Record<string, string> = {
   weather: "ring-cyan-400/70",
   background: "ring-emerald-400/70",
   home: "ring-blue-400/70",
+  "dawlance-portal": "ring-orange-400/70",
 };
 
 const SHORTCUT_BY_ID: Record<string, string> = {
@@ -66,6 +67,7 @@ const VISIBILITY_STATE_BY_ID: Record<string, string> = {
   "tab-stash": "isTabStashVisible",
   bookmarks: "isBookmarksVisible",
   weather: "isWeatherVisible",
+  "dawlance-portal": "isDawlancePortalVisible",
 };
 
 export function DockButton({ item, isDisabled, className }: DockButtonProps): React.ReactElement {
@@ -81,6 +83,7 @@ export function DockButton({ item, isDisabled, className }: DockButtonProps): Re
       isTabStashVisible: state.isTabStashVisible,
       isBookmarksVisible: (state as any).isBookmarksVisible,
       isWeatherVisible: (state as any).isWeatherVisible,
+      isDawlancePortalVisible: state.isDawlancePortalVisible,
       showIconLabels: state.showIconLabels,
     }))
   );

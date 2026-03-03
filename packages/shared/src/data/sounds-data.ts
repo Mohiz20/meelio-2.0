@@ -1,12 +1,15 @@
 import { Sound, SoundType } from "../types";
 import { SoundIcons } from "../components/icons";
 import { env } from "../utils/env.utils";
+import { isChromeExtension } from "../utils/common.utils";
 
 const SOUND_FILES_EXTENSION = ".mp3";
 
 const getSoundPath = (folder: string, filename: string) => {
   const base = env.cdnUrl || '';
-  const effectiveBase = base || 'sounds';
+  // For extensions, sounds are in public/sounds/ directory
+  // For web app, sounds are in /sounds/ directory (served from public folder)
+  const effectiveBase = base || (isChromeExtension() ? 'public/sounds' : 'sounds');
   const separator = effectiveBase && !effectiveBase.endsWith('/') ? '/' : '';
   return `${effectiveBase}${separator}${folder}/${filename}${SOUND_FILES_EXTENSION}`;
 };

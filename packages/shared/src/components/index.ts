@@ -95,6 +95,9 @@ export * from "./core/bookmarks/bookmarks.sheet";
 // Calendar
 export * from "./core/calendar";
 
+// Dawlance Portal
+export * from "./core/dawlance-portal";
+
 // Search
 export * from "./core/search";
 

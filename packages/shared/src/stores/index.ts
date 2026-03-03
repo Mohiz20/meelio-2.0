@@ -11,5 +11,6 @@ export * from "./app.store";
 export * from "./search.store";
 export * from "./calendar.store";
 export * from "./breathing.store";
+export * from "./dawlance-portal.store";
 
 export { useTimerStore, createTimerStore } from "./timer.store";

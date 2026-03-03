@@ -10,6 +10,7 @@ import {
   BookmarksSheet,
   CalendarSheet,
   CalendarDynamicIsland,
+  DawlancePortalSheet,
   useDockStore,
   TaskListSheet,
   Background,
@@ -66,6 +67,7 @@ const Content = () => {
       <TabStashSheet />
       <BookmarksSheet />
       <CalendarSheet />
+      <DawlancePortalSheet />
       <ShortcutsModal />
     </main>
   );
